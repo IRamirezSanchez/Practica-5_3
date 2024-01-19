@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/practica5_2.css">
+    <title>Móviles Comparativas</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand mx-2 my-2" href="#">MOBILE-STORE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav  flex-row w-100  d-block-sm  mx-2">
+                <a class="nav-item nav-link active mx-2" href="./bootstrap_israel.html">Home <span class="sr-only"></span></a>
+                <a class="nav-item nav-link mx-2" href="https://www.samsung.com/es/smartphones/?product1=sm-f721blvheub&product2=&product3=">Samsung</a>
+                <a class="nav-item nav-link mx-2" href="https://tuxiaomi.es/moviles-xiaomi/">Xiaomi</a>
+                <a class="nav-item nav-link mx-2" href="https://www.apple.com/es/iphone/">Iphone</a>
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active mx-2" href="#" role="button"
+                        data-bs-toggle="dropdown">Modelos</a>
+                    <ul class="dropdown-menu bg-light my-1">
+                        <li><a class="dropdown-item" href="https://www.oneplus.com/es">Serie OnePlus</a></li>
+                        <li><a class="dropdown-item" href="https://www.samsung.com/es/smartphones/?product1=sm-f721blvheub&product2=&product3=">Serie Galaxy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ml-lg-auto d-flex">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                    id="inputSearch">
+                <button class="btn  btn-outline-success my-0  mx-2" type="submit">Search</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="bg-light text-dark text-center py-4">
+        <div class="container">
+            <h2>Quiénes Somos</h2>
+            <p>Somos Mobile-Store, tu portal de comparativas de móviles líder. Nuestro equipo de expertos
+                analiza y compara los últimos smartphones del mercado para proporcionarte información
+                detallada y ayudarte a tomar decisiones informadas al elegir tu próximo dispositivo móvil.
+                Explora nuestras comparativas, conoce las últimas novedades y encuentra el móvil perfecto
+                para tus necesidades.</p>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://source.unsplash.com/900x602/?movil" class="d-block w-100 img-fluid " alt="Imagen 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://source.unsplash.com/900x603/?movil" class="d-block w-100 img-fluid " alt="Imagen 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://source.unsplash.com/900x601/?mobile" class="d-block w-100 img-fluid " alt="Imagen 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://source.unsplash.com/900x604/?tienda" class="d-block w-100 img-fluid " alt="Imagen 4">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+        
+    </div>
+
+    
+
+
+    <footer class="bg-dark text-white text-center py-5 mt-4 d-none d-sm-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Contacto</h4>
+                        <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle Principal, Ciudad</p>
+                        <p><i class="fas fa-envelope"></i> Correo Electrónico: info@mobilestore.com</p>
+                        <p><i class="fas fa-phone"></i> Teléfono: +123 456 789</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Redes Sociales</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Newsletter</h4>
+                        <p>Suscríbete a nuestro boletín para recibir las últimas noticias y ofertas especiales.</p>
+                        <form action="#" method="post">
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control" placeholder="Correo electrónico" required>
+                                <button class="btn btn-outline-light" type="submit">Suscribirse</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <hr class="my-4">
+                <p>&copy; 2024 Mobile-Store. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
